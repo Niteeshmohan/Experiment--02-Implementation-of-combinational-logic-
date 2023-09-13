@@ -2,28 +2,28 @@
  
 ## AIM:
 To implement the given logic function verify its operation in Quartus using Verilog programming.
- F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
-F2=xy’z+x’y’z+w’xy+wx’y+wxy
++ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
++ F2=xy’z+x’y’z+w’xy+wx’y+wxy
  
 ## Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
 
 ## THEORY
-A combinational logic circuit implement logical functions where its outputs depend only on its current combination of input values. On the other hand sequential circuits, unlike combinational logic, have state or memory.
-Some logic operations may require more than one logic gate. Different combinations of gates are designed for different operations. The behaviour of the combined logic gates can be determined by constructing a truth table of the combined gates.
+* A combinational logic circuit implement logical functions where its outputs depend only on its current combination of input values. On the other hand sequential circuits, unlike combinational logic, have state or memory.
+* Some logic operations may require more than one logic gate. Different combinations of gates are designed for different operations. The behaviour of the combined logic gates can be determined by constructing a truth table of the combined gates.
  
 
 ## Logic Diagram
 ![img](de1.png)
 
 ## Procedure
-1.Create a project with required entities.
-2.Create a module along with respective file name.
-3.Run the respective programs for the given boolean equations.
-4.Run the module and get the respective RTL outputs.
-5.Create university program(VWF) for getting timing diagram.
-6.Give the respective inputs for timing diagram and obtain the results
+1. Create a project with required entities.
+2. Create a module along with respective file name.
+3. Run the respective programs for the given boolean equations.
+4. Run the module and get the respective RTL outputs.
+5. Create university program(VWF) for getting timing diagram.
+6. Give the respective inputs for timing diagram and obtain the results.
 
 ## Program:
 ```
