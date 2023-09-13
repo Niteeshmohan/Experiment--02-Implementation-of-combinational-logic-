@@ -26,12 +26,11 @@ Software – Quartus prime
 6. Give the respective inputs for timing diagram and obtain the results.
 
 ## Program:
-```
+
 Program to implement the given logic function and to verify its operations in quartus
 using Verilog programming.
 Developed by:NITEESH M 
 RegisterNumber:212222230098
-```
 ```
 Program For F1
 
