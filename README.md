@@ -32,8 +32,9 @@ Procedure
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 Developed by:NITEESH M 
 RegisterNumber:212222230098
-Program For F1
 ```
+```
+Program For F1
 module combilogic(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
@@ -45,6 +46,7 @@ assign G4=((~A)&(B)&(C)&(D));
 assign G5=((B)&(~C)&(D));
 assign F1=G1|G2|G3|G4|G5;
 endmodule
+```
 ```
 Program For F2
 
@@ -62,7 +64,7 @@ endmodule
 ```
 
 ## Output:
-First Question (F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D)
+### First Question (F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D)
 
 ## RTL realization
 ![img](de2.png)
@@ -73,7 +75,7 @@ First Question (F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D)
 ## TRUTHTABLE
 ![img](de4.png)
 
-Second Question (F2=xy’z+x’y’z+w’xy+wx’y+wxy)
+### Second Question (F2=xy’z+x’y’z+w’xy+wx’y+wxy)
 
 ## RTL realization
 ![img](de5.png)
