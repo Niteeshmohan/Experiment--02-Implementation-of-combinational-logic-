@@ -1,5 +1,4 @@
 # Experiment--02-Implementation-of-combinational-logic
-Implementation of combinational logic gates
  
 ## AIM:
 To implement the given logic function verify its operation in Quartus using Verilog programming.
@@ -19,7 +18,6 @@ Some logic operations may require more than one logic gate. Different combinatio
 ![img](de1.png)
 
 ## Procedure
-Procedure
 1.Create a project with required entities.
 2.Create a module along with respective file name.
 3.Run the respective programs for the given boolean equations.
@@ -29,12 +27,14 @@ Procedure
 
 ## Program:
 ```
-Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+Program to implement the given logic function and to verify its operations in quartus
+using Verilog programming.
 Developed by:NITEESH M 
 RegisterNumber:212222230098
 ```
 ```
 Program For F1
+
 module combilogic(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
@@ -64,6 +64,7 @@ endmodule
 ```
 
 ## Output:
+
 ### First Question (F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D)
 
 ## RTL realization
