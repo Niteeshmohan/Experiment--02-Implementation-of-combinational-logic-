@@ -38,7 +38,8 @@ The NOT gate is a fundamental digital logic gate. It has a single input and a si
 6.Give the respective inputs for timing diagram and obtain the results.
 ## Program:
 ```
-Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+Program to implement the given logic function and to verify its operations in quartus
+using Verilog programming.
 Developed by: 212222230098
 RegisterNumber: NITEESH M
 
